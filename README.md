@@ -1,2 +1,2 @@
 # best-repo-ever
-# Changes to insert merge conflict
+# Changes to insert merge conflict must happen
