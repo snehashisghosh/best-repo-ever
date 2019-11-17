@@ -1,0 +1,12 @@
+<!--
+  @name: accountMap
+  @date: 12 SEPT 2019
+  @description: showing the Map for the Account Location
+-->
+<template>
+    <template if:true={billingStreet}>
+        <lightning-map map-markers={mapMarkers}
+                       zoom-level="17"
+                       style="height:18.4rem"></lightning-map>
+    </template>
+</template>
