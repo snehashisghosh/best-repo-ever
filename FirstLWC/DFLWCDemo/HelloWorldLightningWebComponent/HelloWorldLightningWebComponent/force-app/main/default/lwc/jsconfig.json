@@ -1,0 +1,179 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/eventSimple": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/eventSimple/eventSimple.js"
+            ],
+            "c/eventWithData": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/eventWithData/eventWithData.js"
+            ],
+            "c/hello": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/hello/hello.js"
+            ],
+            "c/wireGetObjectInfo": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/wireGetObjectInfo/wireGetObjectInfo.js"
+            ],
+            "c/helloBinding": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/helloBinding/helloBinding.js"
+            ],
+            "c/wireGetPicklistValues": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/wireGetPicklistValues/wireGetPicklistValues.js"
+            ],
+            "c/helloConditionalRendering": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/helloConditionalRendering/helloConditionalRendering.js"
+            ],
+            "c/wireGetPicklistValuesByRecordType": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/wireGetPicklistValuesByRecordType/wireGetPicklistValuesByRecordType.js"
+            ],
+            "c/helloExpressions": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/helloExpressions/helloExpressions.js"
+            ],
+            "c/wireGetRecordDynamicContact": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/wireGetRecordDynamicContact/wireGetRecordDynamicContact.js"
+            ],
+            "c/helloForEach": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/helloForEach/helloForEach.js"
+            ],
+            "c/wireGetRecordStaticContact": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/wireGetRecordStaticContact/wireGetRecordStaticContact.js"
+            ],
+            "c/helloIterator": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/helloIterator/helloIterator.js"
+            ],
+            "c/wireGetRecordUser": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/wireGetRecordUser/wireGetRecordUser.js"
+            ],
+            "c/lds": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/lds/lds.js"
+            ],
+            "c/wireListView": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/wireListView/wireListView.js"
+            ],
+            "c/ldsCreateRecord": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/ldsCreateRecord/ldsCreateRecord.js"
+            ],
+            "c/ldsDeleteRecord": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/ldsDeleteRecord/ldsDeleteRecord.js"
+            ],
+            "c/ldsUtils": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/ldsUtils/ldsUtils.js"
+            ],
+            "c/libsChartjs": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/libsChartjs/libsChartjs.js"
+            ],
+            "c/libsD3": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/libsD3/libsD3.js"
+            ],
+            "c/libsMomentjs": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/libsMomentjs/libsMomentjs.js"
+            ],
+            "c/miscContentAsset": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/miscContentAsset/miscContentAsset.js"
+            ],
+            "c/miscDomQuery": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/miscDomQuery/miscDomQuery.js"
+            ],
+            "c/miscGetUserId": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/miscGetUserId/miscGetUserId.js"
+            ],
+            "c/miscModal": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/miscModal/miscModal.js"
+            ],
+            "c/miscNotification": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/miscNotification/miscNotification.js"
+            ],
+            "c/miscRestApiCall": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/miscRestApiCall/miscRestApiCall.js"
+            ],
+            "c/miscSharedJavaScript": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/miscSharedJavaScript/miscSharedJavaScript.js"
+            ],
+            "c/miscStaticResource": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/miscStaticResource/miscStaticResource.js"
+            ],
+            "c/modal": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/modal/modal.js"
+            ],
+            "c/mortgage": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/mortgage/mortgage.js"
+            ],
+            "c/navToChatterHome": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/navToChatterHome/navToChatterHome.js"
+            ],
+            "c/navToFilesHome": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/navToFilesHome/navToFilesHome.js"
+            ],
+            "c/navToHelloTab": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/navToHelloTab/navToHelloTab.js"
+            ],
+            "c/navToHome": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/navToHome/navToHome.js"
+            ],
+            "c/navToListView": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/navToListView/navToListView.js"
+            ],
+            "c/navToNewRecord": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/navToNewRecord/navToNewRecord.js"
+            ],
+            "c/navToRecord": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/navToRecord/navToRecord.js"
+            ],
+            "c/navToRelatedList": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/navToRelatedList/navToRelatedList.js"
+            ],
+            "c/paginator": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/paginator/paginator.js"
+            ],
+            "c/pubsub": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/pubsub/pubsub.js"
+            ],
+            "c/pubsubContactDetails": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/pubsubContactDetails/pubsubContactDetails.js"
+            ],
+            "c/pubsubContactList": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/pubsubContactList/pubsubContactList.js"
+            ],
+            "c/pubsubSearchBar": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/pubsubSearchBar/pubsubSearchBar.js"
+            ],
+            "c/recordEditFormDynamicContact": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/recordEditFormDynamicContact/recordEditFormDynamicContact.js"
+            ],
+            "c/recordEditFormStaticContact": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/recordEditFormStaticContact/recordEditFormStaticContact.js"
+            ],
+            "c/recordFormDynamicContact": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/recordFormDynamicContact/recordFormDynamicContact.js"
+            ],
+            "c/recordFormStaticContact": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/recordFormStaticContact/recordFormStaticContact.js"
+            ],
+            "c/recordViewFormDynamicContact": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/recordViewFormDynamicContact/recordViewFormDynamicContact.js"
+            ],
+            "c/recordViewFormStaticContact": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/recordViewFormStaticContact/recordViewFormStaticContact.js"
+            ],
+            "c/todoList": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/todoList/todoList.js"
+            ],
+            "c/viewSource": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/viewSource/viewSource.js"
+            ],
+            "c/wireCurrentPageReference": [
+                "../../../../lwc-recipes/force-app/main/default/lwc/wireCurrentPageReference/wireCurrentPageReference.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
