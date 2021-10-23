@@ -18,6 +18,7 @@ node {
     println SERVER_KEY_CREDENTALS_ID
     def toolbelt = tool 'toolbelt'
 
+    println 'after toolbet'
     
     // -------------------------------------------------------------------------
     // Check out code from source control.
