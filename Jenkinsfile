@@ -17,7 +17,8 @@ node {
     println SF_USERNAME
     println SERVER_KEY_CREDENTALS_ID
     def toolbelt = tool 'toolbelt'
-
+    
+    println toolbet
     println 'after toolbet'
     
     // -------------------------------------------------------------------------
