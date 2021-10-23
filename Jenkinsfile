@@ -18,7 +18,7 @@ node {
     println SERVER_KEY_CREDENTALS_ID
     def toolbelt = tool 'toolbelt'
     
-    println toolbet
+    println toolbelt
     println 'after toolbet'
     
     // -------------------------------------------------------------------------
